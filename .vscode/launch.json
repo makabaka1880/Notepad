@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Notepad}",
+            "name": "Debug init",
+            "program": "${workspaceFolder:Notepad}/.build/debug/init",
+            "preLaunchTask": "swift: Build Debug init"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Notepad}",
+            "name": "Release init",
+            "program": "${workspaceFolder:Notepad}/.build/release/init",
+            "preLaunchTask": "swift: Build Release init"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Notepad}",
+            "name": "Debug notepad",
+            "program": "${workspaceFolder:Notepad}/.build/debug/notepad",
+            "preLaunchTask": "swift: Build Debug notepad"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Notepad}",
+            "name": "Release notepad",
+            "program": "${workspaceFolder:Notepad}/.build/release/notepad",
+            "preLaunchTask": "swift: Build Release notepad"
+        }
+    ]
+}
